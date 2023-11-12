@@ -1,0 +1,92 @@
+/* 通用模块 -------------------------------------------------- */
+
+/* 布局 */
+.wp{max-width: 1510px; margin: 0 auto;}
+@media only screen and (max-width: 950px){
+.wp{max-width: none; padding: 0 40px;}
+}
+video{outline: none;} 
+a{color: #184050; transition: .5s;}
+/* a:hover{color:#2A7DB9 ;} */
+.a a{display: block;}
+/* 裁剪 */
+.ofh{overflow: hidden;}
+/* 左浮动 */
+.fl,.col-l{float: left;}
+/* 右浮动 */
+.fr,.col-r{float: right;}
+/* 相对定位 */
+.por{position: relative;}
+/* 高100% */
+.h100full{height: 100%;}
+/* 宽100% */
+.w100full{width: 100%;}
+.allfull{width: 100%;height: 100%;}
+/* 默认图片 */
+img{width: 100%;vertical-align: middle; transition: .5s;}
+
+/* 清除浮动 */
+.htover::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* 文本行数限制 1行 */
+.txtof1{
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 文本行数限制 2行 */
+.txtof2{
+	overflow:hidden;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical; 
+	-webkit-line-clamp:2; 
+	text-overflow:ellipsis
+}
+/* 文本行数限制 3行 */
+.txtof2-3{
+	-webkit-line-clamp:3; 
+}
+/* 文本行数限制 4行 */
+.txtof2-4{
+   overflow:hidden;
+   display:-webkit-box; 
+   -webkit-box-orient:vertical; 
+	-webkit-line-clamp:4;
+	text-overflow:ellipsis
+}
+/* 文本行数限制 5行 */
+.txtof2-5{
+	-webkit-line-clamp:5; 
+}
+
+/* 水平居中 */
+.mid-w{position: relative;left: 50%;transform: translateX(-50%);}
+/* 垂直居中 */
+.mid-h{position: relative;top: 50%;transform: translateY(-50%);}
+/* 水平+垂直居中 */
+.mid-all{position: relative;left: 50%;top: 50%;transform: translate(-50%,-50%);}
+
+
+/* 字体 */
+.font-Medium {
+	font-family: VarelaRound;
+}
+@font-face {
+	font-family: VarelaRound;
+	src: url(../font/VarelaRound-Regular.ttf);
+}
+h1,h2,h3,h4{
+   font-weight: normal;
+}
+th,td{
+   font-weight: normal;
+}
+body {
+	font-family: 'GothamRndMedium','HeadlineRegular','PingFangSCM',"Source Han Sans CN";
+	color: #184050;
+}
+

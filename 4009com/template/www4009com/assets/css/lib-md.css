@@ -1,0 +1,579 @@
+/* 通用盒子-开始*/
+.g-libbox {
+	padding: 50px;
+	border: 3px solid #000;
+	border-radius: 15px;
+	background-color: #d8f4fe;
+	position: relative;
+
+}
+
+.g-libbox .libpic {
+	position: absolute;
+	right: 60px;
+	top: 0;
+	transform: translateY(calc(-100% + -3px));
+	overflow: hidden;
+}
+
+/* 通用盒子-结束*/
+
+
+/* 分页ban-开始 */
+.ban {
+	background: url(../images/lib/ban.jpg) no-repeat;
+	background-size: cover;
+	height: 360px;
+	border-bottom: 2px solid #ddd;
+	position: relative;
+}
+
+.ban .tit {
+	font-size: 56px;
+	font-weight: normal;
+}
+
+.ban .pic {
+	width: 332px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/* 分页ban-结束 */
+
+
+/* 通用中标题 */
+.g-midtit {
+	margin-bottom: 25px;
+}
+
+.g-midtit .tit {
+	vertical-align: baseline;
+}
+
+.g-midtit .tit .t1 {
+	font-size: 37px;
+	margin-right: 10px;
+}
+
+.g-midtit .tit .t2 {
+	font-size: 18px;
+}
+
+
+
+/* 通用选号-开始 */
+
+.ul-picktel {
+	margin: 0 -13px 10px;
+}
+
+.ul-picktel li {
+	float: left;
+	width: 33.333%;
+	margin-bottom: 21px;
+}
+
+.ul-picktel .con {
+	margin: 0 13px;
+	background-color: #D8F4FE;
+	color: #000;
+	border: 3px solid #000;
+	border-radius: 15px;
+	height: 80px;
+	line-height: 76px;
+	position: relative;
+	transition: .3s;
+}
+
+.ul-picktel .on .con {
+	background-color: #fce81f;
+}
+
+.ul-picktel .con .txt {
+	padding: 0 30px;
+	overflow: hidden;
+
+}
+
+.ul-picktel .tel {
+	font-size: 28px;
+	float: left;
+	font-family: HeadlineRegular;
+}
+
+.ul-picktel .price {
+	font-size: 18px;
+	float: right;
+}
+
+.ul-picktel .more {
+	width: 100%;
+	line-height: 1.4;
+	background-color: #fce81f;
+	border: 3px solid #000;
+	box-sizing: content-box;
+	position: absolute;
+	left: -3px;
+	bottom: 0;
+	border-top: none;
+	transform: translateY(calc(100% - 15px));
+	z-index: 10;
+	padding-top: 16px;
+	border-radius: 0 0 15px 15px;
+	display: none;
+	overflow: hidden;
+	/* font-weight: bold; */
+}
+
+.ul-picktel .more .font-regular {
+	font-weight: normal;
+}
+
+.ul-picktel .more .desc {
+	margin: 0 30px;
+	position: relative;
+	padding: 18px 0;
+	overflow: hidden;
+}
+
+.ul-picktel .more .desc::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-top: 3px solid rgba(0, 0, 0, .1);
+}
+
+.ul-picktel .more .p {
+	float: left;
+	font-size: 17px;
+	padding-top: 8px;
+}
+
+.ul-picktel .more .p1 {
+	margin-right: 40px;
+}
+
+.ul-picktel .more .btn {
+	width: 71px;
+	float: right;
+	display: block;
+}
+
+.m-picktel>.info {
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+/* 通用选号-结束 */
+
+
+
+
+/* 通用文字介绍-开始 */
+.m-libtxts .info {
+	font-size: 18px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+.m-libtxts .g-midtit {
+	margin-bottom: 20px;
+}
+
+.m-libtxts .info:last-of-type {
+	margin-bottom: 0;
+}
+
+.m-libtxts {
+	padding: 30px 0 33px;
+	border-bottom: 3px solid rgba(0, 0, 0, .1);
+}
+
+/* 通用文字介绍-结束 */
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 950px) and (max-width: 1700px) {
+
+	/* 通用盒子-开始*/
+	.g-libbox {
+		padding: 2.941vw;
+		border: 0.176vw solid #000;
+		border-radius: 0.882vw;
+		background-color: #d8f4fe;
+		position: relative;
+
+	}
+
+	.g-libbox .libpic {
+		position: absolute;
+		right: 3.529vw;
+		top: 0;
+		transform: translateY(calc(-100% + -0.176vw));
+		overflow: hidden;
+	}
+
+	/* 通用盒子-结束*/
+
+
+	/* 分页ban-开始 */
+	.ban {
+		background: url(../images/lib/ban.jpg) no-repeat;
+		background-size: cover;
+		height: 21.17vw;
+		border-bottom: 0.117vw solid #ddd;
+	}
+
+	.ban .tit {
+		font-size: 3.294vw;
+		font-weight: normal;
+	}
+
+	.ban .pic {
+		width: 19.52vw;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	/* 分页ban-结束 */
+
+
+	/* 通用中标题 */
+	.g-midtit {
+		margin-bottom: 1.470vw;
+	}
+
+	.g-midtit .tit {
+		vertical-align: baseline;
+	}
+
+	.g-midtit .tit .t1 {
+		font-size: 2.176vw;
+		margin-right: 0.588vw;
+	}
+
+	.g-midtit .tit .t2 {
+		font-size: 1.058vw;
+	}
+
+
+
+	/* 通用选号-开始 */
+
+	.ul-picktel {
+		margin: 0 -0.764vw 0.588vw;
+	}
+
+	.ul-picktel li {
+		float: left;
+		width: 33.333%;
+		margin-bottom: 1.235vw;
+	}
+
+	.ul-picktel .con {
+		margin: 0 0.764vw;
+		background-color: #D8F4FE;
+		color: #000;
+		border: 0.176vw solid #000;
+		border-radius: 0.882vw;
+		height: 4.705vw;
+		line-height: 4.470vw;
+		position: relative;
+		transition: .3s;
+	}
+
+	.ul-picktel .on .con {
+		background-color: #fce81f;
+	}
+
+	.ul-picktel .con .txt {
+		padding: 0 1.764vw;
+		overflow: hidden;
+	}
+
+	.ul-picktel .tel {
+		font-size: 1.647vw;
+		float: left;
+	}
+
+	.ul-picktel .price {
+		font-size: 1.058vw;
+		float: right;
+	}
+
+	.ul-picktel .more {
+		width: 100%;
+		line-height: 1.4;
+		background-color: #fce81f;
+		border: 0.176vw solid #000;
+		box-sizing: content-box;
+		position: absolute;
+		left: -0.176vw;
+		bottom: 0;
+		border-top: none;
+		transform: translateY(calc(100% - 0.882vw));
+		z-index: 10;
+		padding-top: 0.941vw;
+		border-radius: 0 0 0.882vw 0.882vw;
+		display: none;
+		overflow: hidden;
+	}
+
+	.ul-picktel .more .desc {
+		margin: 0 1.764vw;
+		position: relative;
+		padding: 1.058vw 0;
+		overflow: hidden;
+	}
+
+	.ul-picktel .more .desc::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		border-top: 0.176vw solid rgba(0, 0, 0, .1);
+	}
+
+	.ul-picktel .more .p {
+		float: left;
+		font-size: 1vw;
+		padding-top: 0.470vw;
+	}
+
+	.ul-picktel .more .p1 {
+		margin-right: 2.352vw;
+	}
+
+	.ul-picktel .more .btn {
+		width: 4.176vw;
+		float: right;
+	}
+
+	.m-picktel>.info {
+		font-size: 1.058vw;
+		line-height: 1.8;
+	}
+
+	/* 通用选号-结束 */
+
+
+
+
+	/* 通用文字介绍-开始 */
+	.m-libtxts .info {
+		font-size: 1.058vw;
+		line-height: 1.7;
+		margin-bottom: 1.764vw;
+	}
+
+	.m-libtxts .g-midtit {
+		margin-bottom: 1.176vw;
+	}
+
+	.m-libtxts .info:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.m-libtxts {
+		padding: 1.764vw 0 1.941vw;
+		border-bottom: 0.176vw solid rgba(0, 0, 0, .1);
+	}
+
+	/* 通用文字介绍-结束 */
+
+
+}
+
+
+
+
+
+/* 移动端 */
+@media only screen and (max-width: 950px) {
+	.ban {
+		margin: 30px 8vw;
+		border-radius: 10px;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.ban .tit {
+		font-size: 28px;
+	}
+
+	.ban .dn.pic {
+		display: block;
+	}
+
+	.g-libbox {
+		padding: 20px;
+		border-width: 0.176vw;
+		border-radius: 0.705vw;
+	}
+	
+	
+	
+	.ul-picktel {
+	    margin: 0 -15px;
+	}
+	.ul-picktel li{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.ul-picktel li.mb0{
+		margin-bottom: 0;
+	}
+	.ul-picktel .con {
+	    margin: 0 15px;
+	    background-color: #D8F4FE;
+	    color: #000;
+	    border: 3px solid #000;
+	    border-radius: 20px;
+	    height: 290px;
+	    line-height: 76px;
+	    position: relative;
+	    transition: .3s;
+	}
+	.ul-picktel .con .txt {
+	    padding: 0 30px;
+	    overflow: hidden;
+	}
+	.ul-picktel .tel {
+	    font-size: 28px;
+	    float: none;
+		text-align: left;
+	}
+	.ul-picktel .price{
+		display: none;
+	}
+	.ul-picktel .more{
+		display: block;
+		transform: unset;
+		background-color: unset;
+		position: unset;
+		border: none;
+		padding-top: 5px;
+		position: relative;
+		left: 0;
+	}
+	.ul-picktel .more .desc{
+		height: 180px;
+		margin: 0 30px;
+		padding: 0;
+	}
+	.ul-picktel .more .desc::after {
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    border-top: 3px solid rgba(0, 0, 0, .1);
+	}
+	.ul-picktel .more .p{
+		font-size: 24px;
+		color: rgb(50, 50, 50);
+		line-height: 1.25;
+		position: absolute;
+		left: 0;
+		white-space: nowrap;
+		padding-top: 8px;
+	}
+	.ul-picktel .more .p1{
+		bottom: 0;
+	}
+	.ul-picktel .more .p2{
+		top: 20px;
+	}
+	.ul-picktel .more .btn{
+		width: 71px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+	.ul-picktel {
+	    margin: 0 -2vw;
+	}
+	.ul-picktel li{
+		width: 50%;
+		margin-bottom: 4vw;
+	}
+	.ul-picktel .con {
+	    margin: 0 2vw;
+	    background-color: #D8F4FE;
+	    color: #000;
+	    border: 0.4vw solid #000;
+	    border-radius: 2.666vw;
+	    height: 38.66vw;
+	    line-height: 10.13vw;
+	    position: relative;
+	    transition: .3s;
+	}
+	.ul-picktel .con .txt {
+		padding: 0 4vw;
+		overflow: hidden;
+	}
+	.ul-picktel .tel {
+	    font-size: 3.733vw;
+	    float: none;
+		text-align: left;
+	}
+	.ul-picktel .price{
+		display: none;
+	}
+	.ul-picktel .more{
+		display: block;
+		transform: unset;
+		background-color: unset;
+		position: unset;
+		border: none;
+		padding-top: 0.666vw;
+		position: relative;
+	}
+	.ul-picktel .more .desc{
+		height: 24vw;
+		margin: 0 4vw;
+		padding: 0;
+	}
+	.ul-picktel .more .desc::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		border-top: 0.4vw solid rgba(0, 0, 0, .1);
+	}
+	.ul-picktel .more .p{
+		font-size: 3.2vw;
+		color: rgb(50, 50, 50);
+		line-height: 1.25;
+		position: absolute;
+		left: 0;
+		padding-top: 1.066vw;
+	}
+	.ul-picktel .more .p1{
+		bottom: 0;
+	}
+	.ul-picktel .more .p2{
+		top: 2.666vw;
+	}
+	.ul-picktel .more .btn{
+		width: 9.466vw;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}

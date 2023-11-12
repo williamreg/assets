@@ -1,0 +1,699 @@
+	/* 400资费问题 */
+	.m-problem{padding-top: 60px;}
+	.m-problem .g-libbox{    padding: 50px 50px 40px 50px;}
+	.m-problem .g-libbox .libpic,
+	.ban.problem .pic{
+		width: 394px;
+	}
+	.m-problem li{
+		margin-bottom: 25px;
+	}
+	.m-problem .con .tit{
+		font-weight: normal;
+		font-size: 28px;
+		padding: 10px 0 20px 80px;
+		min-height: 50px;
+		background: url(../images/picktel/icon4.png) no-repeat left top;
+		background-size: 59px;
+		border-bottom: 3px solid rgba(0,0,0,.1);
+		margin-bottom: 30px;
+	}
+	.m-problem .con .txt{
+		font-size: 18px;
+		line-height: 1.6;
+	}
+	
+	@media only screen and (min-width: 950px) and (max-width: 1700px) {
+		.m-problem{padding-top: 3.529vw;}
+		.m-problem .g-libbox{    padding: 2.941vw 2.941vw 2.352vw 2.941vw;}
+		.m-problem .g-libbox .libpic{
+			width: 23.17vw;
+		}
+		.m-problem li{
+			margin-bottom: 1.470vw;
+		}
+		.m-problem .con .tit{
+			font-size: 1.647vw;
+			padding: 0.588vw 0 1.176vw 4.705vw;
+			min-height: 2.941vw;
+			background: url(../images/picktel/icon4.png) no-repeat left top;
+			background-size: 3.470vw;
+			border-bottom: 0.176vw solid rgba(0,0,0,.1);
+			margin-bottom: 1.764vw;
+		}
+		.m-problem .con .txt{
+			font-size: 1.058vw;
+			line-height: 1.6;
+		}
+	}
+	
+	@media only screen and (max-width: 950px) {
+		.ban.problem .pic{display: block;width: 145px;right: 10px;}
+		.m-problem{padding: 0 0 30px 0;}
+		.m-problem .g-libbox{padding: 20px;}
+		.m-problem .g-libbox .libpic{display: none;}
+		.m-problem .con .tit{
+			font-size: 17px;
+			background-size: 30px; 
+			padding:0 0 15px 40px;
+			margin-bottom: 20px;
+			min-height: 25px;
+			background-position: 0px 2px;
+		}
+		.m-problem .con .txt{font-size: 12px;}
+	}
+	
+	
+	
+	
+	
+	
+	
+	/* 人才招聘 */
+	.m-jobs .g-libbox .libpic, .m-help .libpic{
+		width: 503px;
+	}
+	.m-jobs .g-libbox,.m-jobs .g-libbox{
+		padding: 45px 50px;
+	}
+	.m-jobs{padding: 60px 0 30px;}
+	.m-jobs .g-libbox>.desc{
+		font-size: 18px;
+		margin-bottom: 40px;
+		line-height: 1.7;
+	}
+	.m-jobs .desc span{
+		margin-right: 40px;
+	}
+	.m-jobs .desc span:last-of-type{margin-right: 0;}
+	
+	.g-jobinfo{
+		border-top: 3px solid rgba(0,0,0,.1);;
+		padding: 50px 80px 0;
+		font-size: 23px;
+		line-height: 1.8;
+		margin-bottom: 43px;
+	}
+	.g-jobinfo:last-of-type{
+		margin-bottom: 0;
+	}
+	.g-jobinfo .tit{
+		font-size: 28px;
+		margin-bottom: 30px;
+		position: relative;
+	}
+	.g-jobinfo .tit::before{
+		content: '';
+		position: absolute;
+		left: -80px;
+		top: 3px;
+		background: url(../images/picktel/icon2.png) no-repeat;
+		background-size: 100%;
+		width: 54px;
+		height: 44px;
+	}
+	.g-jobinfo .desc{
+		margin-bottom: 17px;
+	}
+	.g-jobinfo .info .t,
+	.g-jobinfo .info {
+		margin-bottom: 25px;
+	}
+	.g-jobinfo .info .content{
+		font-size: 18px;
+		line-height: 1.7;
+	}
+	.g-jobinfo .detail{
+		font-size: 17px;
+	}
+	
+	@media only screen and (min-width: 950px) and (max-width: 1700px) {
+		.m-jobs .g-libbox .libpic{
+			width: 29.58vw;
+		}
+		.m-jobs .g-libbox{
+			padding: 2.647vw 2.941vw;
+		}
+		.m-jobs{padding: 3.529vw 0 1.8vw;}
+		.m-jobs .g-libbox>.desc{
+			font-size: 1.058vw;
+			margin-bottom: 2.352vw;
+			line-height: 1.7;
+		}
+		.m-jobs .desc span{
+			margin-right: 2.352vw;
+		}
+		.m-jobs .desc span:last-of-type{margin-right: 0;}
+		
+		.g-jobinfo{
+			border-top: 0.176vw solid rgba(0,0,0,.1);;
+			padding: 2.941vw 4.705vw 0;
+			font-size: 1.352vw;
+			line-height: 1.8;
+			margin-bottom: 2.529vw;
+		}
+		.g-jobinfo:last-of-type{
+			margin-bottom: 0;
+		}
+		.g-jobinfo .tit{
+			font-size: 1.647vw;
+			margin-bottom: 1.764vw;
+			position: relative;
+		}
+		.g-jobinfo .tit::before{
+			content: '';
+			position: absolute;
+			left: -4.705vw;
+			top: 0.176vw;
+			background: url(../images/picktel/icon2.png) no-repeat;
+			background-size: 100%;
+			width: 3.176vw;
+			height: 2.588vw;
+		}
+		.g-jobinfo .desc{
+			margin-bottom: 1vw;
+		}
+		.g-jobinfo .info .t,
+		.g-jobinfo .info {
+			margin-bottom: 1.470vw;
+		}
+		.g-jobinfo .info .content{
+			font-size: 1.058vw;
+			line-height: 1.7;
+		}
+		.g-jobinfo .detail{
+			font-size: 1vw;
+		}
+				
+	}
+	@media only screen and (max-width: 950px) {
+		.m-jobs .g-libbox .libpic{display: none;}
+		.ban.job .pic{width: 170px; right: -15px;}
+		.m-jobs{padding: 0 0 30px 0;}
+		.m-jobs .g-libbox{padding: 30px 20px 0;}
+		.m-jobs .g-libbox>.desc{font-size: 12px; margin-bottom: 20px;}
+		.m-jobs .g-libbox>.desc p{margin-bottom: 20px;}
+		.m-jobs .g-libbox>.desc p:last-of-type{margin-bottom: 0;}
+		.g-jobinfo{
+			padding: 25px 0 20px;
+			margin-bottom: 0;
+		}
+		.g-jobinfo .tit::before{
+			width: 27px;
+			left: 0;
+			top: 5px;
+		}
+		.g-jobinfo .tit{
+			font-size: 17px;
+			padding-left: 40px;
+			margin-bottom: 10px;
+		}
+		.g-jobinfo .desc{font-size: 14px;}
+		.g-jobinfo .desc span{display: block;}
+		.g-jobinfo .info .t{font-size: 14px;}
+		.g-jobinfo .info .content,.g-jobinfo .detail{font-size: 12px;}
+		.g-jobinfo .info .t, .g-jobinfo .info{margin-bottom: 20px;}
+		
+	}
+
+
+
+/*******************************
+  -------[帮助中心 -开始]-------
+********************************/
+.m-help {
+	padding: 60px 0 30px; 
+}
+
+.m-help .m-pages {
+	margin-top: 0;
+	padding-bottom: 0;
+}
+
+.ul-helplist {
+	margin-bottom: 30px;min-height:50px;
+}
+
+	.ul-helplist .con {
+		height: 100px;
+		line-height: 100px;
+		font-size: 29px;
+		overflow: hidden;
+		display: block;
+		border-bottom: 2px solid #d0d0d0;
+		transition: color .5s;
+	}
+
+	.ul-helplist .txt {
+		float: left;
+		width: calc(100% - 220px);
+		box-sizing: border-box;
+		padding-left: 80px;
+		background: url(../images/help/icon1.png) no-repeat left center;
+		background-size: 53px;
+	}
+
+	.ul-helplist .date {
+		float: right;
+		width: 220px;
+		text-align: right;
+	}
+
+@media only screen and (min-width: 950px) and (max-width: 1920px) {
+	.m-help {
+		padding: 3.529vw 0 1.8vw;
+	}
+	.m-help .g-libbox .libpic ,.m-helpdt .g-libbox .libpic{
+		width: 23.17vw;
+	}
+
+	.m-help .g-libbox {
+		padding: 2.647vw 2.941vw;
+	}
+
+	.m-help .m-pages {
+		padding-bottom: 0;
+	}
+
+	.ul-helplist {
+		margin-bottom: 1.562vw;
+	}
+
+		.ul-helplist .con {
+			height: 5.208vw;
+			line-height: 5.208vw;
+			font-size: 1.510vw;
+			border-bottom: 0.104vw solid #d0d0d0;
+		}
+
+		.ul-helplist .txt {
+			width: calc(100% - 11.45vw);
+			box-sizing: border-box;
+			padding-left: 4.166vw;
+			background: url(../images/help/icon1.png) no-repeat left center;
+			background-size: 2.760vw;
+		}
+
+		.ul-helplist .date {
+			width: 11.45vw;
+		}
+}
+
+@media only screen and (max-width: 950px) {
+	.m-help .g-libbox .libpic,.m-helpdt .g-libbox .libpic{display: none;}
+	.ban.help .pic{width: 170px; right: -15px;}
+	.m-help{padding: 0 0 30px 0;}
+
+	.ul-helplist .con {
+		height: auto;
+		padding: 50px 0;
+		line-height: 1.5;
+		font-size: 36px;
+	}
+
+	.ul-helplist .txt {
+		padding-left: 110px;
+		background-size: 70px;
+		line-height: 1.5;
+		background-position: left 5px;
+		width: 460px;
+	}
+
+	.ul-helplist .date {
+		width: 200px;
+	}
+
+	.m-help .g-libbox {
+		padding: 3.157vw 6.315vw 2.52vw;
+		margin-bottom: 5.263vw;
+	}
+
+	.ul-helplist .con {
+		height: auto;
+		padding: 5.263vw 0;
+		line-height: 1.5;
+		font-size: 3.789vw;
+	}
+
+	.ul-helplist .txt {
+		padding-left: 11.57vw;
+		background-size: 7.368vw;
+		line-height: 1.5;
+		background-position: left 0.526vw;
+		/* width: 48.42vw; */
+		width: 46vw;
+	}
+
+	.ul-helplist .date {
+		width: 21.05vw;
+	}
+}
+
+/*******************************
+  -------[帮助中心 -结束]-------
+********************************/
+
+
+
+
+/*******************************
+  -------[帮助中心详情 -开始]-------
+********************************/
+
+.m-helpdt .g-libbox {
+	padding-top: 80px;
+	margin-bottom: 80px;
+}
+
+.m-libinfodt .ul-helplist .con {
+	height: auto;
+	position: relative;
+}
+
+.m-libinfodt .ul-helplist .txt {
+	float: none;
+	width: 70%;
+	background-position: left 30px;
+	line-height: 1.5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.m-libinfodt .ul-helplist .info {
+	font-size: 16px;
+	position: absolute;
+	top: 42px;
+	right: 0;
+	line-height: 1.5;
+}
+
+	.m-libinfodt .ul-helplist .info .name {
+		display: inline-block;
+	}
+
+	.m-libinfodt .ul-helplist .info .date {
+		width: auto;
+		float: none;
+		display: inline-block;
+		text-align: left;
+	}
+
+.m-libinfodt .txts {
+	font-size: 17px;
+	line-height: 1.8;
+	padding-bottom: 60px;
+	border-bottom: 2px solid #d0d0d0;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+	.m-libinfodt .txts p.mb30 {
+		margin-bottom: 30px;
+	}
+
+	.m-libinfodt .txts p.mb60 {
+		margin-bottom: 60px;
+	}
+
+
+.g-detailspage {
+	overflow: hidden;
+}
+
+	.g-detailspage .icon {
+		float: left;
+		background: url(../images/help/icon2.png) no-repeat;
+		background-size: 100px;
+		height: 80px;
+		padding-left: 120px;
+		font-size: 16px;
+	}
+
+		.g-detailspage .icon.icon-right {
+			padding: 0 120px 0 0;
+			background-position: right center;
+			background-image: url(../images/help/icon3.png);
+			text-align: right;
+			float: right;
+		}
+
+		.g-detailspage .icon .tit {
+			padding-top: 10px;
+			margin-bottom: 5px;
+		}
+
+		.g-detailspage .icon .t {
+			/* width: 15em; */
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
+@media only screen and (min-width: 950px) and (max-width: 1920px) {
+	.m-helpdt {
+		padding: 3.529vw 0 1.8vw;
+	}
+	.m-helpdt .g-libbox {
+		padding-top: 4.166vw;
+		margin-bottom: 4.166vw;
+	}
+
+	.m-libinfodt .ul-helplist .con {
+		height: auto;
+	}
+
+	.m-libinfodt .ul-helplist .txt {
+		background-position: left 1.562vw;
+		line-height: 1.5;
+		padding-top: 1.562vw;
+		padding-bottom: 1.562vw;
+	}
+
+	.m-libinfodt .ul-helplist .info {
+		font-size: 0.833vw;
+		top: 2.187vw;
+		right: 0;
+		line-height: 1.5;
+	}
+
+		.m-libinfodt .ul-helplist .info .name {
+		}
+
+		.m-libinfodt .ul-helplist .info .date {
+			width: auto;
+		}
+
+	.m-libinfodt .txts {
+		font-size: 0.885vw;
+		line-height: 1.8;
+		padding-bottom: 3.125vw;
+		border-bottom: 0.104vw solid #d0d0d0;
+		margin-bottom: 2.604vw;
+	}
+
+		.m-libinfodt .txts p.mb30 {
+			margin-bottom: 1.562vw;
+		}
+
+		.m-libinfodt .txts p.mb60 {
+			margin-bottom: 3.125vw;
+		}
+
+	.g-detailspage {
+	}
+
+		.g-detailspage .icon {
+			background: url(../images/help/icon2.png) no-repeat;
+			background-size: 5.208vw;
+			height: 4.166vw;
+			padding-left: 6.25vw;
+			font-size: 0.833vw;
+		}
+
+			.g-detailspage .icon.icon-right {
+				padding: 0 6.25vw 0 0;
+				background- background-image: url(../images/help/icon3.png);
+			}
+
+			.g-detailspage .icon .tit {
+				padding-top: 0.520vw;
+				margin-bottom: 0.260vw;
+			}
+
+			.g-detailspage .icon .t {
+				/* width: 15em; */
+				white-space: nowrap;
+			}
+}
+
+@media only screen and (max-width: 950px) {
+	.m-helpdt .g-libbox {
+		padding: 40px 70px 0;
+		margin-bottom: 50px;
+	}
+
+	.m-libinfodt .ul-helplist {
+		margin-bottom: 60px;
+	}
+
+		.m-libinfodt .ul-helplist .txt {
+			padding: 0 0 0 110px;
+			background-size: 70px;
+			line-height: 1.5;
+			background-position: left 5px;
+			width: 460px;
+			float: left;
+		}
+
+		.m-libinfodt .ul-helplist .info {
+			position: static;
+			float: right;
+		}
+
+			.m-libinfodt .ul-helplist .info .ph_date {
+				width: 200px;
+				text-align: right;
+				font-size: 36px;
+			}
+
+			.g-detailspage,
+			.m-libinfodt .ul-helplist .info .date,
+			.m-libinfodt .ul-helplist .info .name {
+				display: none;
+			}
+
+				.g-detailspage.dn,
+				.m-libinfodt .ul-helplist .info .ph_date {
+					display: block;
+				}
+
+	.m-libinfodt .txts {
+		font-size: 28px;
+		padding-bottom: 60px;
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+
+	.g-detailspage.dn {
+		padding-bottom: 60px;
+	}
+
+	.g-detailspage .icon,
+	.g-detailspage .icon.icon-right {
+		display: block;
+		float: none;
+		height: 230px;
+		box-sizing: border-box;
+		border: 2px solid #d0d0d0;
+		border-radius: 50px;
+		background-color: #eef4f6;
+		padding: 25px 330px 0 60px;
+		background-position: 93% center;
+		text-align: left;
+		font-size: 28px;
+		margin-bottom: 40px;
+		background-size: 127px;
+	}
+
+		.g-detailspage .icon .tit {
+			color: #a7a7a7;
+			margin-bottom: 10px;
+		}
+
+		.g-detailspage .icon .t {
+			/* width: 14em; */
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			text-overflow: ellipsis;
+			white-space: normal;
+			line-height: 1.8;
+		}
+
+	.m-helpdt .g-libbox {
+		padding: 4.210vw 7.368vw 0;
+		margin-bottom: 5.263vw;
+	}
+
+	.m-libinfodt .ul-helplist {
+		margin-bottom: 6.315vw;
+	}
+
+		.m-libinfodt .ul-helplist .txt {
+			padding: 0 0 0 11.57vw;
+			background-size: 7.368vw;
+			line-height: 1.5;
+			background-position: left 0.526vw;
+			/* width: 48.42vw; */
+			width: 46vw;
+		}
+
+		.m-libinfodt .ul-helplist .info {
+		}
+
+			.m-libinfodt .ul-helplist .info .ph_date {
+				/* width: 21.05vw; */
+				width: calc(100% - 48vw);
+				font-size: 3.789vw;
+			}
+
+			.g-detailspage,
+			.m-libinfodt .ul-helplist .info .date,
+			.m-libinfodt .ul-helplist .info .name {
+			}
+
+				.g-detailspage.dn,
+				.m-libinfodt .ul-helplist .info .ph_date {
+				}
+
+	.m-libinfodt .txts {
+		font-size: 2.947vw;
+		padding-bottom: 6.315vw;
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+
+	.g-detailspage.dn {
+		padding-bottom: 6.315vw;
+	}
+
+	.g-detailspage .icon,
+	.g-detailspage .icon.icon-right {
+		height: 24.21vw;
+		box-sizing: border-box;
+		border: 0.210vw solid #d0d0d0;
+		border-radius: 5.263vw;
+		padding: 2.631vw 34.73vw 0 6.315vw;
+		background-93 % center;
+		font-size: 2.947vw;
+		margin-bottom: 4.210vw;
+		background-size: 13.36vw;
+	}
+
+		.g-detailspage .icon .tit {
+			margin-bottom: 1.052vw;
+		}
+
+		.g-detailspage .icon .t {
+			/* width: 14em; */
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			text-overflow: ellipsis;
+			white-space: normal;
+			line-height: 1.8;
+		}
+
+	.m-libinfodt .txts p.mb30 {
+		margin-bottom: 5vw;
+	}
+
+	.m-libinfodt .txts p.mb60 {
+		margin-bottom: 7vw;
+	}
+}
+
+/*******************************
+  -------[帮助中心详情 -结束]-------
+********************************/
